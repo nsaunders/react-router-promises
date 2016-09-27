@@ -1,0 +1,33 @@
+{
+  "name": "react-router-promise-adapters",
+  "version": "1.0.0",
+  "description": "Adapts react-router hooks to promises instead of callbacks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jest --config jest.json --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/therealnicksaunders/react-router-promise-adapters.git"
+  },
+  "keywords": [
+    "react",
+    "react-router",
+    "promises",
+    "callbacks",
+    "adapter"
+  ],
+  "author": "Nick Saunders <nick@saunde.rs>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/therealnicksaunders/react-router-promise-adapters/issues"
+  },
+  "homepage": "https://github.com/therealnicksaunders/react-router-promise-adapters#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "jest": "^15.1.1"
+  }
+}
