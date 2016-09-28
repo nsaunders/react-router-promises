@@ -1,5 +1,5 @@
 {
-  "name": "react-router-promise-adapters",
+  "name": "react-router-promises",
   "version": "1.0.0",
   "description": "Adapts react-router hooks to promises instead of callbacks.",
   "main": "index.js",
