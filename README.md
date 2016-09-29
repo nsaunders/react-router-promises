@@ -16,9 +16,8 @@ function loadUsersOnEnter(nextState, replace, callback) {
 function loadUsersOnChange(prevState, nextState, replace, callback) {
   loadUsersIntoStore(nextState).then(callback);
 }
-
-// ...
-
+```
+```
 <Route path="/users" component={UserListing} onEnter={loadUsersOnEnter} onChange={loadUsersOnChange} />
 ```
 
@@ -31,8 +30,7 @@ function loadUsersIntoStore(nextState) {
     // fetch user listing and add it to the data store
   });
 }
-
-// ...
-
+```
+```
 <Route path="/users" component={UserListing} onEnter={enter(loadUsersIntoStore)} onChange={change(loadUsersIntoStore)} />
 ```
