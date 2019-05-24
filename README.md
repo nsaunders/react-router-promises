@@ -1,4 +1,7 @@
 # react-router-promises
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicholassaunders/react-router-promises.svg)](https://greenkeeper.io/)
+
 Adapts react-router hooks to promises instead of callbacks.
 
 Instead of this:
